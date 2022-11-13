@@ -1,0 +1,123 @@
+nav a{
+    color:aliceblue;
+}
+.nav-item{
+    margin-left: 2.5rem;
+}
+.nav-item:hover{
+    border-bottom: 3px solid rgb(22, 193, 219);
+  
+}
+nav {
+    background-image: url('image/acceuil/fond_barre_nav.jpg');
+    border-radius: 2rem;
+    font-size: 2rem;
+    margin-top: 1.5rem;
+}
+.nav-item img{
+    height:4rem;
+}
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
+.footer{
+    border-radius: 2rem 2rem 0rem 0rem;
+    background-image: url('image/acceuil/footer.webp');
+}
+.card{
+    border-bottom-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+    border:0.2rem solid rgb(63, 79, 218);
+}
+.image_bg{
+    background-image: url('image/acceuil/fond_page\ acceuil.jpg');
+    border-radius:2rem;
+    background-color: rgba(0, 0, 0, 5);
+}
+.p{
+
+    background: #f9f9f9;border: 1px solid #ccc; border-radius: 1.5rem; box-shadow: 1px 1px 1px #ccc;
+ 
+  }
+  .block{
+    height: 15rem;
+  }
+  .imganim2 {
+    position: relative;
+    animation-name: anim;
+    animation-duration: 2s;
+    animation-delay: 0s;
+}
+
+@keyframes anim {
+    0% {
+        right: 100%;
+        top: 0px;
+    }
+    25% {
+        right: 100%;
+        top: 0px;
+    }
+    50% {
+        right: 0px;
+        top: 0px;
+    }
+    75% {
+        right: 0px;
+        top: 0px;
+    }
+    100% {
+        right: 0px;
+        top: 0px;
+    }
+}
+.imganim3 , .imganim4 {
+    position: relative;
+    animation-name: anim2;
+    animation-duration: 2s;
+    animation-delay: 0s;
+}
+
+@keyframes anim2 {
+    0% {
+        left: 100%;
+        top: 0px;
+    }
+    25% {
+        left: 100%;
+        top: 0px;
+    }
+    50% {
+        left: 0px;
+        top: 0px;
+    }
+    75% {
+        left: 0px;
+        top: 0px;
+    }
+    100% {
+        left:  0px;
+        top: 0px;
+    }
+}
+.imganim2:hover ,.imganim3:hover{
+transform: scale(1.15);
+transition-duration: 3s;
+
+}
+.premiersite {
+    color: #fff;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #00d7e6, 0 0 20px #00d7e6;
+    }
+    to {
+      text-shadow:0 0 10px #d40a0a, 0 0 20px #d40a0a;
+    }
+  }

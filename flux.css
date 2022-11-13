@@ -1,0 +1,32 @@
+nav a{
+    color:#f4f6f8;
+}
+nav {
+    background-image: url('image/flux_bg1.png');
+    border-radius: 2rem;
+    font-size: 2rem;
+    margin-top: 1.5rem;
+}
+.nav-item{
+    margin-left: 2.5rem;
+}
+.nav-item:hover{
+    border-bottom: 3px solid rgb(22, 193, 219);
+  
+}
+.nav-item img{
+    height:4rem;
+}
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
+.footer{
+    border-radius: 2rem 2rem 0rem 0rem;
+}
+
+
+blockquote{
+
+    background: #f9f9f9;border: 1px solid #ccc; border-radius: 6px; box-shadow: 1px 1px 1px #ccc;
+  }

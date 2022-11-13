@@ -1,0 +1,27 @@
+nav a{
+    color:aliceblue;
+}
+nav {
+    background-image: url('image/bg-kda.png');
+    border-radius: 2rem;
+    font-size: 2rem;
+    margin-top: 1.5rem;
+}
+.nav-item img{
+    height:4rem;
+}
+.nav-item{
+    margin-left: 2.5rem;
+}
+.nav-item:hover{
+    border-bottom: 3px solid rgb(22, 193, 219);
+  
+}
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
+.footer{
+    border-radius: 2rem 2rem 0rem 0rem;
+}
+
